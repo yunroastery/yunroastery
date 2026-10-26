@@ -1,7 +1,876 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Yun Coffee Roastery — small-batch freshly roasted coffee from Cheras, Malaysia. Espresso, filter, ice drip and drip bags."><title>Yun Coffee Roastery — Freshly Roasted Coffee</title><style>
-:root{--ink:#252a25;--cream:#f7f6f0;--green:#344a3c;--line:#dcded6;--muted:#70776d;--blue:#dbe9ee}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}button{font:inherit}.announcement{text-align:center;background:var(--green);color:white;padding:10px;font-size:11px;letter-spacing:.14em;text-transform:uppercase}.header{background:var(--cream);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}.nav{max-width:1420px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:18px 5%;gap:22px}.brand{font-weight:800;letter-spacing:-.07em;font-size:27px;line-height:.88}.brand small{display:block;font-weight:400;font-size:9px;letter-spacing:.25em;margin-top:7px}.cloud{font-size:25px;color:#8caeb8;margin-right:5px}.links{display:flex;gap:26px;font-size:12px;text-transform:uppercase;letter-spacing:.08em}.nav-cta{border:1px solid var(--ink);padding:12px 17px;font-size:11px;text-transform:uppercase;letter-spacing:.08em}.menu-btn{display:none;background:none;border:0;font-size:24px}.hero{display:grid;grid-template-columns:1fr 1fr;min-height:600px}.hero-copy{padding:11% 9% 10% 10%;display:flex;flex-direction:column;justify-content:center}.eyebrow{text-transform:uppercase;font-size:11px;letter-spacing:.25em;color:var(--muted);font-weight:700}.hero h1{font-family:Georgia,serif;font-weight:400;line-height:1.03;letter-spacing:-.055em;font-size:clamp(58px,7vw,112px);margin:30px 0}.hero p{line-height:1.8;max-width:470px;font-size:15px;color:#60665f}.btn{display:inline-block;padding:16px 24px;background:var(--green);color:white;font-size:12px;text-transform:uppercase;letter-spacing:.13em;margin-top:20px;align-self:flex-start}.hero-img{min-height:580px;background:url('assets/roastery.png') center/cover}.marquee{border-block:1px solid var(--line);display:flex;justify-content:space-around;gap:20px;padding:22px;text-transform:uppercase;letter-spacing:.15em;font-size:12px;flex-wrap:wrap}.section{max-width:1420px;margin:auto;padding:100px 5%}.section-title{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:42px}.section-title h2{font-family:Georgia,serif;font-weight:400;letter-spacing:-.05em;font-size:clamp(40px,5vw,70px);line-height:1.1;margin:12px 0 0}.section-title p{max-width:360px;line-height:1.7;color:var(--muted);font-size:14px}.filters{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:26px}.filter{background:transparent;border:1px solid #c5cac1;padding:11px 17px;cursor:pointer;font-size:11px;text-transform:uppercase;letter-spacing:.07em}.filter.active{background:var(--ink);color:white}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{min-width:0}.art{height:330px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;background:#e9e8df}.art:before{content:'';position:absolute;width:230px;height:230px;border-radius:50%;background:rgba(255,255,255,.24);transform:translate(55px,-60px)}.art.b{background:#d9e6e7}.art.c{background:#e6d9c9}.art.d{background:#dce0d1}.art.e{background:#d8ded8}.art.f{background:#e9d9d7}.bag{width:55%;height:72%;background:#fbfaf5;box-shadow:10px 16px 20px #0002;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;transform:rotate(-3deg);text-align:center;padding:10px}.bag:before{content:'';position:absolute;top:10px;left:10px;right:10px;border-top:2px solid #ddd}.bag strong{font-family:Georgia,serif;font-size:23px;letter-spacing:-.05em}.bag small{font-size:9px;letter-spacing:.2em;margin-top:12px}.bag .icon{font-size:43px;margin-bottom:20px;color:#86a7b1}.tag{position:absolute;left:14px;top:14px;background:#fff;padding:9px 12px;font-size:10px;text-transform:uppercase;letter-spacing:.1em}.card h3{font-size:15px;text-transform:uppercase;letter-spacing:.02em;margin:18px 0 8px}.notes{font-size:12px;color:var(--muted);line-height:1.7;min-height:38px}.price{font-size:13px;font-weight:700;margin:13px 0}.order{display:inline-block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;border-bottom:1px solid;padding-bottom:6px}.story{background:var(--blue);display:grid;grid-template-columns:1fr 1fr}.story-img{min-height:480px;background:url('assets/roastery.png') center/cover}.story-copy{padding:12%;display:flex;flex-direction:column;justify-content:center}.story h2,.wholesale h2{font-family:Georgia,serif;font-weight:400;font-size:clamp(40px,5vw,72px);letter-spacing:-.05em;line-height:1.12;margin:18px 0}.story p,.wholesale p{font-size:15px;line-height:1.85;max-width:540px}.collections{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.collection{min-height:270px;padding:35px;display:flex;flex-direction:column;justify-content:end;background:#e7e7dd}.collection:nth-child(2){background:#d9e7e8}.collection:nth-child(3){background:#e4d9ce}.collection span{font-size:45px}.collection h3{font-family:Georgia,serif;font-weight:400;font-size:30px;margin:15px 0}.collection a{font-size:11px;text-transform:uppercase;letter-spacing:.1em;border-bottom:1px solid;align-self:flex-start;padding-bottom:6px}.wholesale{background:var(--green);color:white;text-align:center;padding:100px 20px}.wholesale p{margin:0 auto;color:#d6dfd8}.wholesale .btn{background:white;color:var(--green)}.footer{padding:60px 5% 25px;max-width:1420px;margin:auto}.foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}.footer h3{font-family:Georgia,serif;font-weight:400;font-size:32px}.footer p,.footer a{font-size:13px;line-height:2;color:#656b64}.footer h4{font-size:12px;text-transform:uppercase;letter-spacing:.15em}.bottom{border-top:1px solid var(--line);margin-top:55px;padding-top:20px;font-size:11px;color:var(--muted)}@media(max-width:950px){.links{gap:13px}.grid{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:65px}}@media(max-width:700px){.nav{padding:16px 5%}.menu-btn{display:block}.links{display:none;position:absolute;left:0;right:0;top:75px;background:var(--cream);padding:25px;flex-direction:column;border-bottom:1px solid var(--line)}.links.open{display:flex}.nav-cta{display:none}.hero{grid-template-columns:1fr}.hero-copy{padding:70px 7%}.hero h1{font-size:62px}.hero-img{min-height:370px;order:-1}.section{padding:70px 5%}.section-title{display:block}.grid{gap:12px}.art{height:235px}.bag{width:65%;height:70%}.bag strong{font-size:17px}.bag .icon{font-size:26px}.card h3{font-size:12px}.story{grid-template-columns:1fr}.story-img{min-height:300px}.story-copy{padding:65px 7%}.collections{grid-template-columns:1fr}.collection{min-height:220px}.foot-grid{grid-template-columns:1fr 1fr}.foot-grid>div:first-child{grid-column:1/-1}}
-</style></head><body><div class="announcement">Small-batch roasted in Cheras, Malaysia · Order directly via WhatsApp</div><header class="header"><nav class="nav"><a class="brand" href="#top"><span class="cloud">☁</span> YUN<small>COFFEE ROASTERY</small></a><button class="menu-btn" aria-label="Open menu" onclick="document.querySelector('.links').classList.toggle('open')">☰</button><div class="links"><a href="#coffee">Shop Coffee</a><a href="#collections">Collections</a><a href="#story">Our Story</a><a href="#wholesale">Wholesale</a><a href="#contact">Contact</a></div><a class="nav-cta" href="https://wa.me/60143218221" target="_blank" rel="noopener">Order on WhatsApp ↗</a></nav></header><main id="top"><section class="hero"><div class="hero-copy"><div class="eyebrow">Cheras · Malaysia · Home Roastery</div><h1>Good coffee.<br>Every day.</h1><p>Freshly roasted specialty coffee, made with care and offered at honest prices. Find your everyday favourite — from espresso blends to filter coffee, ice drip and drip bags.</p><a class="btn" href="#coffee">Explore our coffee ↗</a></div><div class="hero-img" role="img" aria-label="Yun Coffee Roastery workspace"></div></section><div class="marquee"><span>Freshly roasted</span><span>Small batches</span><span>Honest prices</span><span>Made for everyday</span></div><section class="section" id="coffee"><div class="section-title"><div><div class="eyebrow">Discover your next favourite</div><h2>Our coffee selection.</h2></div><p>Thoughtfully selected coffees, roasted to bring out their character. Ask us about availability and current roast dates.</p></div><div class="filters"><button class="filter active" data-filter="all">All coffee</button><button class="filter" data-filter="espresso">Espresso</button><button class="filter" data-filter="filter">Filter coffee</button><button class="filter" data-filter="ready">Ready to brew</button></div><div class="grid" id="products"></div></section><section class="story" id="story"><div class="story-img" role="img" aria-label="Coffee roasting studio"></div><div class="story-copy"><div class="eyebrow">Our philosophy</div><h2>Roasted with passion. Shared with everyone.</h2><p>Yun Coffee Roastery is a small home-based roastery in Cheras, Malaysia. We explore origins, experiment with blends and roast in small batches — all to make delicious coffee part of your everyday routine.</p><p>We believe great coffee doesn't have to cost a fortune.</p><a class="btn" href="#contact">Get in touch ↗</a></div></section><section class="section" id="collections"><div class="section-title"><div><div class="eyebrow">Coffee for every moment</div><h2>Find your ritual.</h2></div></div><div class="collections"><div class="collection"><span>☕</span><h3>Espresso & SOE</h3><a href="#coffee" onclick="selectFilter('espresso')">Explore espresso ↗</a></div><div class="collection"><span>🌱</span><h3>Pour Over Filter</h3><a href="#coffee" onclick="selectFilter('filter')">Explore filter ↗</a></div><div class="collection"><span>🧊</span><h3>Ice Drip & Drip Bags</h3><a href="#coffee" onclick="selectFilter('ready')">Explore easy brews ↗</a></div></div></section><section class="wholesale" id="wholesale"><div class="eyebrow" style="color:#cbd8ce">For cafés and businesses</div><h2>Looking for coffee<br>for your café?</h2><p>We supply espresso blends and single-origin coffee for cafés and businesses. Tell us what you need and let's find the right coffee for you.</p><a class="btn" href="https://wa.me/60143218221?text=Hi%20Yun%20Coffee%20Roastery%2C%20I%27d%20like%20to%20ask%20about%20wholesale%20coffee." target="_blank" rel="noopener">Enquire about wholesale ↗</a></section></main><footer class="footer" id="contact"><div class="foot-grid"><div><h3>☁ Yun Coffee Roastery</h3><p>Freshly roasted. Honestly priced.<br>Cheras, Malaysia</p></div><div><h4>Explore</h4><p><a href="#coffee">Shop Coffee</a><br><a href="#story">Our Story</a><br><a href="#wholesale">Wholesale</a></p></div><div><h4>Get in touch</h4><p><a href="https://wa.me/60143218221" target="_blank" rel="noopener">WhatsApp: +60 14-321 8221</a><br><a href="https://www.instagram.com/yunroastery/" target="_blank" rel="noopener">Instagram: @yunroastery</a></p></div></div><div class="bottom">© <span id="year"></span> Yun Coffee Roastery. All rights reserved. · Website images are illustrative.</div></footer><script>
-const products=[{name:'Awan Blend',note:'Oolong Tea · Peanut · Floral',price:'RM 47 / 200g',type:'espresso',color:'a',badge:'Espresso blend'},{name:'Blue Moody Blend',note:'Nutty · Chocolate · Berry · Caramel',price:'RM 24 / 200g',type:'espresso',color:'b',badge:'Espresso blend'},{name:'Ethiopia Banko Guotiti',note:'Mandarin Orange · Lemongrass · Citrus',price:'RM 43 / 200g',type:'espresso',color:'c',badge:'Single origin espresso'},{name:'Ethiopia Guji Hambella',note:'Floral · Strawberry · Berry',price:'RM 48 / 100g',type:'filter',color:'d',badge:'Filter coffee'},{name:'Yunnan Lancang Tianhao',note:'Wine · Dark Chocolate · Jackfruit',price:'Ask for current price',type:'filter',color:'e',badge:'Filter coffee'},{name:'Honduras Lempira',note:'Tiramisu · Dessert-like sweetness',price:'Ask for current price',type:'filter',color:'f',badge:'Filter coffee'},{name:'Ice Drip Coffee',note:'Slow-extracted · Smooth · Refreshing · 180ml',price:'RM 13 / bottle',type:'ready',color:'b',badge:'Ready to drink'},{name:'Drip Bag Coffee',note:'Easy brewing · Single-serve sachets',price:'From RM 5 / sachet',type:'ready',color:'c',badge:'Ready to brew'}];
-function render(filter='all'){document.querySelector('#products').innerHTML=products.filter(p=>filter==='all'||p.type===filter).map(p=>`<article class="card"><div class="art ${p.color}"><span class="tag">${p.badge}</span><div class="bag"><div class="icon">☁</div><strong>YUN</strong><small>COFFEE ROASTERY</small><small>${p.name}</small></div></div><h3>${p.name}</h3><div class="notes">${p.note}</div><div class="price">${p.price}</div><a class="order" target="_blank" rel="noopener" href="https://wa.me/60143218221?text=${encodeURIComponent('Hi Yun Coffee Roastery, I would like to ask about '+p.name+'.')}">Enquire / Order ↗</a></article>`).join('')}
-function selectFilter(f){document.querySelectorAll('.filter').forEach(b=>b.classList.toggle('active',b.dataset.filter===f));render(f)}document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>selectFilter(b.dataset.filter)));document.querySelector('#year').textContent=new Date().getFullYear();render();
-</script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="YUN Coffee Roastery — small-batch roasted coffee from Cheras, Malaysia. Espresso, filter, and brew essentials."
+    />
+    <title>YUN Coffee Roastery</title>
+    <style>
+      :root {
+        --ink: #252a25;
+        --cream: #f7f6f0;
+        --green: #344a3c;
+        --line: #dcded6;
+        --muted: #70776d;
+        --blue: #dbe9ee;
+        --brown: #b68f5d;
+        --sand: #efe0cb;
+        --shadow: rgba(18, 22, 20, 0.08);
+      }
+
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        background: var(--cream);
+        color: var(--ink);
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+      }
+
+      a { color: inherit; text-decoration: none; }
+      img { display: block; max-width: 100%; }
+      button, input { font: inherit; }
+
+      .announcement {
+        text-align: center;
+        background: var(--green);
+        color: white;
+        padding: 10px 12px;
+        font-size: 11px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      .header {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        background: rgba(247, 246, 240, 0.9);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid var(--line);
+      }
+
+      .nav {
+        max-width: 1420px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        padding: 18px 5%;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        min-width: 240px;
+      }
+
+      .brand-logo {
+        display: block;
+        width: 260px;
+        height: auto;
+        object-fit: contain;
+      }
+
+      .links {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+
+      .links a {
+        color: var(--ink);
+        opacity: 0.8;
+      }
+
+      .nav-cta {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(30, 34, 30, 0.2);
+        background: var(--green);
+        color: white;
+        border-radius: 999px;
+        padding: 12px 18px;
+        font-size: 11px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        min-height: 620px;
+        padding: 0 5%;
+        max-width: 1420px;
+        margin: 0 auto;
+      }
+
+      .hero-copy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .eyebrow {
+        text-transform: uppercase;
+        letter-spacing: 0.22em;
+        color: var(--muted);
+        font-size: 11px;
+        margin-bottom: 18px;
+      }
+
+      .hero h1 {
+        margin: 0;
+        font-family: Georgia, serif;
+        font-weight: 400;
+        line-height: 1.02;
+        letter-spacing: -0.06em;
+        font-size: clamp(52px, 7vw, 112px);
+      }
+
+      .hero p {
+        max-width: 470px;
+        font-size: 15px;
+        line-height: 1.8;
+        color: #4b524b;
+        margin: 24px 0 30px;
+      }
+
+      .hero-actions {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px 24px;
+        border-radius: 999px;
+        border: 1px solid transparent;
+        font-size: 11px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+
+      .btn.primary {
+        background: var(--ink);
+        color: white;
+      }
+
+      .btn.secondary {
+        background: transparent;
+        border-color: var(--line);
+        color: var(--ink);
+      }
+
+      .hero-stats {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        flex-wrap: wrap;
+        margin-top: 28px;
+      }
+
+      .stat {
+        font-size: 12px;
+        color: var(--muted);
+        letter-spacing: 0.06em;
+      }
+
+      .stat strong {
+        display: block;
+        color: var(--ink);
+        font-size: 21px;
+        letter-spacing: -0.05em;
+        margin-bottom: 2px;
+      }
+
+      .hero-image {
+        position: relative;
+        min-height: 560px;
+        border-radius: 28px;
+        background: linear-gradient(135deg, #e6d8c6, #d9d2ca);
+        overflow: hidden;
+        box-shadow: 0 24px 66px var(--shadow);
+      }
+
+      .hero-image::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: linear-gradient(180deg, rgba(19,15,13,0.08), rgba(19,15,13,0.18)), url('https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1200&q=80');
+        background-size: cover;
+        background-position: center;
+        transform: scale(1.05);
+      }
+
+      .floating-badge {
+        position: absolute;
+        left: 26px;
+        bottom: 26px;
+        background: rgba(255, 250, 245, 0.8);
+        border: 1px solid rgba(37,42,37,0.08);
+        border-radius: 20px;
+        padding: 16px 18px;
+        backdrop-filter: blur(8px);
+        box-shadow: 0 18px 36px rgba(29,22,18,0.12);
+      }
+
+      .floating-badge .label {
+        display: block;
+        color: var(--muted);
+        font-size: 9px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+      }
+
+      .floating-badge .name {
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: -0.06em;
+        font-family: Georgia, serif;
+      }
+
+      .floating-badge .price {
+        display: block;
+        color: var(--green);
+        font-size: 15px;
+        margin-top: 4px;
+      }
+
+      .marquee {
+        border-top: 1px solid var(--line);
+        border-bottom: 1px solid var(--line);
+        background: rgba(255,255,255,0.06);
+      }
+
+      .marquee-inner {
+        max-width: 1420px;
+        margin: 0 auto;
+        padding: 18px 5%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 14px;
+        color: rgba(37,42,37,0.56);
+        font-size: 10px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+
+      .section {
+        max-width: 1420px;
+        margin: 0 auto;
+        padding: 110px 5%;
+      }
+
+      .section-head {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-bottom: 34px;
+      }
+
+      .section-head h2 {
+        margin: 0;
+        font-family: Georgia, serif;
+        font-weight: 400;
+        line-height: 1.06;
+        letter-spacing: -0.06em;
+        font-size: clamp(34px, 4vw, 68px);
+      }
+
+      .section-head p {
+        max-width: 500px;
+        font-size: 15px;
+        color: var(--muted);
+        margin: 0;
+      }
+
+      .feature-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 22px;
+      }
+
+      .feature-card {
+        background: rgba(255,255,255,0.2);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        padding: 22px;
+      }
+
+      .feature-icon {
+        width: 60px;
+        height: 60px;
+        display: grid;
+        place-items: center;
+        background: linear-gradient(135deg, rgba(122,77,52,0.12), rgba(208,161,112,0.12));
+        border: 1px solid rgba(122,77,52,0.11);
+        border-radius: 18px;
+        margin-bottom: 18px;
+        font-size: 24px;
+      }
+
+      .feature-card h3 {
+        margin: 0 0 8px;
+        font-size: 20px;
+        letter-spacing: -0.04em;
+      }
+
+      .feature-card p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.7;
+      }
+
+      .products {
+        display: grid;
+        grid-template-columns: 1.15fr 1fr 1fr;
+        gap: 20px;
+      }
+
+      .product-card {
+        background: rgba(255,255,255,0.18);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 16px 30px rgba(20,24,19,0.03);
+      }
+
+      .product-card.large {
+        grid-row: span 2;
+      }
+
+      .product-image {
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .product-card.large .product-image {
+        height: 440px;
+      }
+
+      .product-body {
+        padding: 20px 20px 22px;
+      }
+
+      .label-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        color: var(--muted);
+        font-size: 9px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+      }
+
+      .tag {
+        background: rgba(122,77,52,0.08);
+        border: 1px solid rgba(122,77,52,0.12);
+        color: var(--brown);
+        border-radius: 999px;
+        padding: 6px 8px;
+      }
+
+      .product-title {
+        margin: 0 0 12px;
+        font-size: 28px;
+        font-family: Georgia, serif;
+        font-weight: 400;
+        letter-spacing: -0.05em;
+      }
+
+      .product-meta {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-top: 10px;
+      }
+
+      .price {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+      }
+
+      .inline-btn {
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.06);
+        color: var(--ink);
+        padding: 10px 14px;
+        border-radius: 999px;
+        font-size: 11px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+
+      .story {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        align-items: center;
+      }
+
+      .story-photo {
+        position: relative;
+        min-height: 430px;
+        border-radius: 32px;
+        overflow: hidden;
+        background: #d6c0a1;
+      }
+
+      .story-photo::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: linear-gradient(180deg, rgba(20,10,7,0.10), rgba(20,10,7,0.22)), url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1200&q=80');
+        background-size: cover;
+        background-position: center;
+      }
+
+      .story-copy h3 {
+        margin: 0 0 14px;
+        font-size: clamp(34px, 3vw, 52px);
+        font-family: Georgia, serif;
+        font-weight: 400;
+        line-height: 1.04;
+        letter-spacing: -0.06em;
+      }
+
+      .story-copy p {
+        margin: 0 0 24px;
+        color: var(--muted);
+        font-size: 15px;
+        line-height: 1.8;
+      }
+
+      .story-stats {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .stat-box {
+        padding-top: 14px;
+        border-top: 1px solid var(--line);
+      }
+
+      .stat-box strong {
+        display: block;
+        font-size: 34px;
+        line-height: 1;
+        letter-spacing: -0.06em;
+        margin-bottom: 6px;
+        font-family: Georgia, serif;
+      }
+
+      .stat-box span {
+        color: var(--muted);
+        font-size: 11px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .journal-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 22px;
+      }
+
+      .journal-card {
+        background: rgba(255,255,255,0.18);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        overflow: hidden;
+      }
+
+      .journal-thumb {
+        height: 220px;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .journal-body {
+        padding: 18px 18px 22px;
+      }
+
+      .meta-line {
+        color: var(--muted);
+        font-size: 9px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+      }
+
+      .journal-card h3 {
+        margin: 0 0 10px;
+        font-size: 22px;
+        font-family: Georgia, serif;
+        font-weight: 400;
+        letter-spacing: -0.05em;
+        line-height: 1.12;
+      }
+
+      .journal-card p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.7;
+      }
+
+      .cta-box {
+        background: linear-gradient(135deg, rgba(122,77,52,0.06), rgba(208,161,112,0.08)), rgba(255,255,255,0.12);
+        border: 1px solid var(--line);
+        border-radius: 28px;
+        padding: 30px 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 18px;
+        flex-wrap: wrap;
+      }
+
+      .cta-box h3 {
+        margin: 0 0 8px;
+        font-size: clamp(32px, 3vw, 52px);
+        line-height: 1;
+        letter-spacing: -0.06em;
+        font-family: Georgia, serif;
+        font-weight: 400;
+      }
+
+      .cta-box p {
+        margin: 0;
+        color: var(--muted);
+        max-width: 560px;
+      }
+
+      .subscribe {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+
+      .subscribe input {
+        width: 260px;
+        height: 52px;
+        background: rgba(255,255,255,0.22);
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 0 18px;
+        color: var(--ink);
+        outline: none;
+      }
+
+      .footer {
+        border-top: 1px solid var(--line);
+        background: rgba(255,255,255,0.05);
+        padding: 28px 5% 42px;
+      }
+
+      .footer-inner {
+        max-width: 1420px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+        flex-wrap: wrap;
+      }
+
+      .footer-links {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 22px;
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      @media (max-width: 980px) {
+        .hero, .story, .feature-grid, .products, .journal-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .product-card.large { grid-row: auto; }
+        .links { display: none; }
+        .hero-image { min-height: 500px; }
+      }
+
+      @media (max-width: 700px) {
+        .nav {
+          flex-wrap: wrap;
+          justify-content: center;
+          padding-top: 14px;
+          padding-bottom: 14px;
+        }
+
+        .brand {
+          min-width: 0;
+          width: 100%;
+          justify-content: center;
+        }
+
+        .brand-logo {
+          width: 200px;
+        }
+
+        .nav-cta {
+          width: 100%;
+        }
+
+        .hero {
+          padding-top: 12px;
+        }
+
+        .hero-actions,
+        .subscribe {
+          flex-direction: column;
+          align-items: stretch;
+          width: 100%;
+        }
+
+        .btn,
+        .subscribe input {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="announcement">Small-batch roasted in Cheras, Malaysia · Order directly via WhatsApp</div>
+
+    <header class="header">
+      <nav class="nav">
+        <a class="brand" href="#top" aria-label="YUN Coffee Roastery home">
+          <img src="assets/logo.svg" alt="YUN Coffee Roastery" class="brand-logo" />
+        </a>
+
+        <div class="links">
+          <a href="#shop">Shop Coffee</a>
+          <a href="#collections">Collections</a>
+          <a href="#story">Our Story</a>
+          <a href="#wholesale">Wholesale</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <a class="nav-cta" href="https://wa.me/60143218221" target="_blank" rel="noopener noreferrer">Order on WhatsApp</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow">Cheras • Malaysia • Home Roastery</div>
+          <h1>Good coffee.<br />Every day.</h1>
+          <p>
+            Freshly roasted specialty coffee, made with care and offered at honest prices.
+            Find your everyday favourite — from espresso blends to filter coffee, ice drip and drip bags.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#shop">Explore our coffee</a>
+            <a class="btn secondary" href="#story">Our story</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <strong>4.9/5</strong>
+              average rating
+            </div>
+            <div class="stat">
+              <strong>18k+</strong>
+              drinks brewed
+            </div>
+            <div class="stat">
+              <strong>48h</strong>
+              roast-to-ship
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image" role="img" aria-label="YUN Coffee Roastery workspace"></div>
+      </section>
+
+      <div class="marquee">
+        <div class="marquee-inner">
+          <span>Freshly roasted</span>
+          <span>Small batches</span>
+          <span>Honest pricing</span>
+          <span>Made for everyday</span>
+          <span>Malaysia loved</span>
+        </div>
+      </div>
+
+      <section class="section" id="shop">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Discover your next favourite</div>
+            <h2>Our coffee selection</h2>
+          </div>
+          <p>
+            Thoughtfully selected coffees, roasted to bring out their character. Ask us about availability and current roast dates.
+          </p>
+        </div>
+
+        <div class="products" id="products"></div>
+      </section>
+
+      <section class="section story" id="story">
+        <div class="story-photo" role="img" aria-label="Coffee roasting studio"></div>
+
+        <div class="story-copy">
+          <div class="eyebrow">Our philosophy</div>
+          <h3>Roasted with passion. Shared with everyone.</h3>
+          <p>
+            YUN Coffee Roastery is a small home-based roastery in Cheras, Malaysia. We explore origins,
+            experiment with blends and roast in small batches — all to make delicious coffee part of your everyday routine.
+          </p>
+          <p>
+            We believe great coffee doesn’t have to cost a fortune. We keep it straightforward: honest sourcing,
+            clear roast profiles, and a warm, welcoming experience for every cup.
+          </p>
+
+          <div class="story-stats">
+            <div class="stat-box">
+              <strong>12+</strong>
+              <span>years sourcing</span>
+            </div>
+            <div class="stat-box">
+              <strong>35</strong>
+              <span>small partners</span>
+            </div>
+            <div class="stat-box">
+              <strong>99%</strong>
+              <span>repeat buyers</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="collections">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Coffee for every moment</div>
+            <h2>Find your ritual</h2>
+          </div>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon">✦</div>
+            <h3>Espresso & SOE</h3>
+            <p>Balanced, sweet and structured coffees made for a clean shot and a fuller body.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">❋</div>
+            <h3>Filter Coffee</h3>
+            <p>Clean, bright profiles for pour-over, French press, and daily home brewing.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">✧</div>
+            <h3>Ice Drip & Drip Bags</h3>
+            <p>Quick, convenient, and smooth brews designed for busy mornings and easy afternoons.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="wholesale">
+        <div class="cta-box">
+          <div>
+            <div class="eyebrow">For cafés and businesses</div>
+            <h3>Looking for coffee for your café?</h3>
+            <p>We supply espresso blends and single-origin coffee for cafés and businesses. Tell us what you need and let's find the right coffee for you.</p>
+          </div>
+
+          <a class="btn primary" href="https://wa.me/60143218221?text=Hi%20Yun%20Coffee%20Roastery%2C%20I%27d%20like%20to%20ask%20about%20wholesale%20coffee." target="_blank" rel="noopener noreferrer">Enquire about wholesale</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="footer-inner">
+        <div class="brand">
+          <img src="assets/logo.svg" alt="YUN Coffee Roastery" class="brand-logo" />
+        </div>
+
+        <div class="footer-links">
+          <a href="#shop">Shop Coffee</a>
+          <a href="#story">Our Story</a>
+          <a href="#wholesale">Wholesale</a>
+          <a href="https://www.instagram.com/yunroastery/" target="_blank" rel="noopener noreferrer">Instagram: @yunroastery</a>
+          <a href="https://wa.me/60143218221" target="_blank" rel="noopener noreferrer">WhatsApp: +60 14-321 8221</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const products = [
+        { name: 'Awan Blend', note: 'Oolong Tea · Peanut · Floral', price: 'RM 47 / 200g', type: 'espresso', color: 'a', badge: 'Espresso blend' },
+        { name: 'Blue Moody Blend', note: 'Nutty · Chocolate · Berry · Caramel', price: 'RM 24 / 200g', type: 'espresso', color: 'b', badge: 'Espresso blend' },
+        { name: 'Ethopia Banko Guotiti', note: 'Mandarin Orange · Lemongrass · Citrus', price: 'RM 43 / 200g', type: 'espresso', color: 'c', badge: 'Single origin espresso' },
+        { name: 'Ethiopia Guji Hambella', note: 'Floral · Strawberry · Berry', price: 'RM 48 / 100g', type: 'filter', color: 'd', badge: 'Filter coffee' },
+        { name: 'Yunnan Lancang Tianhao', note: 'Wine · Dark Chocolate · Jackfruit', price: 'Ask for current price', type: 'filter', color: 'e', badge: 'Filter coffee' },
+        { name: 'Hondures Lempara', note: 'Tiramisu · Dessert-like sweetness', price: 'Ask for current price', type: 'filter', color: 'f', badge: 'Filter coffee' },
+        { name: 'Ice Drip Coffee', note: 'Slow-extracted · Smooth · Refreshing · 180ml', price: 'RM 13 / bottle', type: 'ready', color: 'g', badge: 'Ready to drink' },
+        { name: 'Drip Bag Coffee', note: 'Easy brewing · Single-serve sachets', price: 'From RM 5 / sachet', type: 'ready', color: 'h', badge: 'Ready to brew' }
+      ];
+
+      function render(filter = 'all') {
+        document.querySelector('#products').innerHTML = products
+          .filter(p => filter === 'all' || p.type === filter)
+          .map(p => `
+            <article class="product-card ${p.color === 'a' || p.color === 'b' ? 'large' : ''}">
+              <div class="product-image" style="background-image:url('https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=1200&q=80');"></div>
+              <div class="product-body">
+                <div class="label-row">
+                  <span>${p.badge}</span>
+                  <span class="tag">${p.type}</span>
+                </div>
+                <h3 class="product-title">${p.name}</h3>
+                <div class="note">${p.note}</div>
+                <div class="product-meta">
+                  <div class="price">${p.price}</div>
+                  <a class="inline-btn" href="https://wa.me/60143218221?text=Hi%20Yun%20Coffee%20Roastery%2C%20I%27d%20like%20to%20order%20${encodeURIComponent(p.name)}." target="_blank" rel="noopener noreferrer">Order</a>
+                </div>
+              </div>
+            </article>
+          `)
+          .join('');
+      }
+
+      document.addEventListener('DOMContentLoaded', () => {
+        render('all');
+      });
+    </script>
+  </body>
+</html>
