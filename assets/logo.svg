@@ -1,0 +1,40 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="500" fill="none"/>
+
+  <!-- cloud group -->
+  <g transform="translate(40,20)">
+    <path d="M204 280C112 280 40 208 40 121C40 56 92 7 156 7C196 7 232 28 258 62C283 36 323 18 370 18C455 18 521 82 521 169C521 196 512 223 496 245C490 253 476 256 466 252C457 249 448 244 441 237C409 258 371 269 332 269C295 269 260 258 227 240C215 262 182 280 204 280Z"
+      fill="#E3F0F4" stroke="#1B211D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M241 154C189 150 142 171 111 212C104 220 94 222 86 219C79 216 75 208 76 200C84 158 121 122 168 108C203 97 240 100 274 116C290 124 304 136 315 150C333 145 351 145 367 150C387 156 403 168 415 185C425 174 437 166 451 162C431 126 390 99 345 95C307 92 280 134 241 154Z"
+      fill="#D8E8F0" stroke="#1B211D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- face -->
+    <g>
+      <circle cx="260" cy="170" r="9" fill="#1B211D"/>
+      <circle cx="380" cy="170" r="9" fill="#1B211D"/>
+      <path d="M288 207C303 223 331 224 349 207" stroke="#1B211D" stroke-width="6" stroke-linecap="round"/>
+    </g>
+
+    <!-- coffee beans -->
+    <g transform="translate(0,0)">
+      <path d="M180 310C214 286 245 289 259 314C271 335 260 376 223 394C186 412 148 405 132 375C117 349 140 328 180 310Z"
+        fill="#EAD7B5" stroke="#1B211D" stroke-width="6"/>
+      <path d="M206 318C223 302 239 309 247 329C255 348 252 369 236 385C221 400 198 403 184 389C170 376 178 342 206 318Z"
+        fill="#DEC79F" stroke="#1B211D" stroke-width="5"/>
+      <path d="M196 321C187 353 201 377 226 390" stroke="#1B211D" stroke-width="4" stroke-linecap="round"/>
+
+      <path d="M360 310C394 286 425 289 439 314C451 335 440 376 403 394C366 412 328 405 312 375C297 349 320 328 360 310Z"
+        fill="#EAD7B5" stroke="#1B211D" stroke-width="6"/>
+      <path d="M386 318C403 302 419 309 427 329C435 348 432 369 416 385C401 400 378 403 364 389C350 376 358 342 386 318Z"
+        fill="#DEC79F" stroke="#1B211D" stroke-width="5"/>
+      <path d="M376 321C367 353 381 377 406 390" stroke="#1B211D" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- brand text -->
+  <g transform="translate(620,200)">
+    <text x="0" y="150" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" letter-spacing="8" fill="#1B211D">YUN</text>
+    <text x="0" y="240" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" letter-spacing="8" fill="#1B211D">COFFEE</text>
+    <text x="0" y="330" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" letter-spacing="8" fill="#1B211D">ROASTERY</text>
+  </g>
+</svg>
